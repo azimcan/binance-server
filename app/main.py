@@ -1,6 +1,5 @@
 #!flask/bin/python
 from flask import jsonify, make_response
-
 from flask import Flask, request
 
 from app.controllers import SymbolsController as sc
